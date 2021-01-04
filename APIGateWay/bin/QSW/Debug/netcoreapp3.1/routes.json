@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "endpoint": "/users",
+      "destination": {
+        "path": "http://localhost:8090/api/user",
+        "requiresAuthentication": "true"
+      }
+    },
+    {
+      "endpoint": "/order",
+      "destination": {
+        "path": "http://localhost:8091/api/order",
+        "requiresAuthentication": "false"
+      }
+    }
+  ],
+  "authenticationService": {
+    "path": "http://localhost:8080/api/auth/"
+  }
+}
