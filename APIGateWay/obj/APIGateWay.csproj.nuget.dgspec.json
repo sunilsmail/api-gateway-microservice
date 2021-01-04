@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sunilkumar.x.amujuri\\source\\repos\\Microservices\\APIGateWay\\APIGateWay.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sunilkumar.x.amujuri\\source\\repos\\Microservices\\APIGateWay\\APIGateWay.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sunilkumar.x.amujuri\\source\\repos\\Microservices\\APIGateWay\\APIGateWay.csproj",
+        "projectName": "APIGateWay",
+        "projectPath": "C:\\Users\\sunilkumar.x.amujuri\\source\\repos\\Microservices\\APIGateWay\\APIGateWay.csproj",
+        "packagesPath": "C:\\Users\\sunilkumar.x.amujuri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sunilkumar.x.amujuri\\source\\repos\\Microservices\\APIGateWay\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sunilkumar.x.amujuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
